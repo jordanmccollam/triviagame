@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Trivia Game</title>
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- GOOGLE FONTs -->
+    <link href="https://fonts.googleapis.com/css?family=Fredoka+One|Luckiest+Guy&display=swap" rel="stylesheet">
+    <!-- CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-10 text-center bg-info text-white my-4 p-4 game">
+
+                <!-- ANCHOR MAIN HEADING -->
+                <div class="row">
+                    <div class="col-12 main-heading">
+                        <h1>S<span class="text-dark">o</span>ccer M<span class="text-dark">o</span>m Trivia<span class="text-dark">!</span></h1>
+                        <div class="soccerballs">
+                            <img src="assets/images/soccer-ball.png" alt="soccer ball">
+                            <img src="assets/images/soccer-ball.png" alt="soccer ball">
+                            <img src="assets/images/soccer-ball.png" alt="soccer ball">
+                            <img src="assets/images/soccer-ball.png" alt="soccer ball">
+                            <img src="assets/images/soccer-ball.png" alt="soccer ball">
+                            <img src="assets/images/soccer-ball.png" alt="soccer ball">
+                            <img src="assets/images/soccer-ball.png" alt="soccer ball">
+                            <img src="assets/images/soccer-ball.png" alt="soccer ball">
+                            <img src="assets/images/soccer-ball.png" alt="soccer ball">
+                            <img src="assets/images/soccer-ball.png" alt="soccer ball">
+                            <img src="assets/images/soccer-ball.png" alt="soccer ball">
+                            <img src="assets/images/soccer-ball.png" alt="soccer ball">
+                            <img src="assets/images/soccer-ball.png" alt="soccer ball">
+                            <img src="assets/images/soccer-ball.png" alt="soccer ball">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- ANCHOR START SCREEN -->
+                <div class="row border border-dark p-4 m-5 start-screen">
+                    <div class="col-12">
+                        <p>Do you know a soccer mom when you see one?</p>
+                        <p>Let's find out!</p>
+                        <button type="button" class="btn btn-dark btn-lg start-btn">START</button>
+                    </div>
+                </div>
+
+                <!-- ANCHOR QUESTIONS SCREEN -->
+                <div class="row border border-dark p-4 m-5 questions-screen">
+                    <div class="col-12">
+                        <p>Time Remaining: <span id="time">10</span> Seconds</p>
+                        <p id="question"></p>
+                        <div id="options"></div>
+                    </div>
+                </div>
+
+                <!-- ANCHOR RESULTS SCREEN -->
+                <div class="row border border-dark p-4 m-5 results-screen">
+                    <div class="col-12">
+                        <p>All done! Here's how you did!</p>
+                        <p>Correct Answers: <span id="correct" class="stats text-dark"></span></p>
+                        <p>Incorrect Answers: <span id="incorrect" class="stats text-dark"></span></p>
+                        <p>Unanswered: <span id="unanswered" class="stats text-dark"></span></p>
+                        <button class="btn btn-lg btn-dark reset-btn">START OVER?</button>
+                    </div>
+                </div>
+
+            <!-- End of game col -->
+            </div>
+        </div>
+    <!-- END of container -->
+    </div>
+
+
+<!-- jQuery -->
+<script
+src="https://code.jquery.com/jquery-3.4.1.js"
+integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+crossorigin="anonymous"></script>
+<!-- JS -->
+<script src="assets/javascript/app.js"></script>
+</body>
+</html>

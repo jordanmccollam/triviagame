@@ -1,0 +1,29 @@
+body {
+    background: url(../images/soccer-bg4.jpg) no-repeat center fixed;
+    font-size: 28px;
+}
+
+.main-heading h1{
+    font-family: 'Luckiest Guy', cursive;
+    font-size: 80px;
+}
+
+.main-heading img {
+    width: 40px;
+}
+
+.start-btn {
+    font-size: 28px;
+}
+
+#options button {
+    font-family: 'Luckiest Guy', cursive;
+    font-size: 30px !important;
+}
+.options:hover {
+    color: #343a40;
+}
+.stats {
+    font-family: 'Luckiest Guy', cursive;
+}
+
